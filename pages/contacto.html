@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICONO DE SOLAPA-->
+    <link
+      rel="shortcut icon"
+      href="../assets/icons8-uñas-16.png"
+      type="image/x-icon"
+    />
+    <!------ LINK CSS BOOTSTRAP -------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- GOOGLE FONTS IMPORTO desde CSS porque aqui no lo toma bootstrap -->
+
+    <!-- FONTAWESOME  (iconos)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Proyecto-Contacto</title>
+  </head>
+  <body>
+    <header class="contenido__header container-fluid fixed-top px-5">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="img__logo img-fluid"
+            src="../assets/logo-lu.jpeg"
+            alt=""
+            width="100"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item fs-4 px-4">
+              <a class="nav__link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item fs-4 px-4">
+              <a class="nav__link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item fs-4 px-4">
+              <a class="nav__link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item fs-4 px-4">
+              <a class="nav__link" href="../pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item fs-4 px-4">
+              <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main__contacto">
+      <section class="seccion__contacto py-5 mt-5">
+        <h1 class="contacto__titulo pt-5 text-center fw-bold">Contacto</h1>
+        <div class="row container mx-2">
+          <form class="col-lg-8 py-5 pb-md-5">
+            <div class="border border-secondary p-3 rounded-3">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Ingrese su nombre"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Ingrese su mensaje"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary px-5">
+                Enviar
+              </button>
+            </div>
+          </form>
+          <div class="col-lg-4 d-lg-block d-sm-flex justify-content-between">
+            <div>
+              <p class="">
+                <i class="fa-solid fa-location-dot mx-3 fs-4 mt-lg-5"></i>Remonda
+                xxx, CORDOBA
+              </p>
+              <p>
+                <i class="fa-solid fa-phone mx-3 fs-4"></i>+ 54 9 351 213-8337
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope mx-3 fs-4"></i
+                >lourdesbustos67@gmail.com
+              </p>
+            </div>
+
+            <iframe
+              class="mapa"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3406.
+              8265825447907!2d-64.17181798485325!3d-31.
+              363764381421742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+              1!3m2!1m1!2zMzHCsDIxJzQ5LjYiUyA2NMKwMTAnMTAuNyJX!5e0!3m2!1ses!2sar!4v1664076582068!5m2!1ses!2sar"
+              width="350"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="seccion__preguntas py-5 px-3">
+        <h2 class="contacto__preguntas pb-3 text-center">
+          Preguntas frecuentes
+        </h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item bg-transparent">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                ¿Que formas de pago reciben?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <p class="mx-5 pt-2">
+                ¡Si! Recibimos tarjetas de Debito, Credito o Transferencia
+                bancaria.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                ¿Como se reserva un turno?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <p class="mx-5 pt-2">
+                Las reservas se realizan contactándonos por Instagram, Facebook
+                o WhatsApp (preferentemente)
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                ¿Cuanto dura el turno?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <p class="mx-5 pt-2">
+                Para que tu servicio sea bueno, los turnos duran entre 1:30 a 2:00 hs, dependiendo del servicio a realizar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer-sm pt-1">
+      <div class="row py-2 fs-4 text-center justify-content-center">
+        <div class="col-lg-3 col-md-4 text-lg-end text-md-end">
+          Buscanos en las redes
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <a href="#" class=""
+            ><i class="icono__redes fa-brands fa-facebook mx-2"></i
+          ></a>
+          <a href="#" class=""
+            ><i class="icono__redes fa-brands fa-instagram mx-2"></i
+          ></a>
+          <a href="#" class=""
+            ><i class="icono__redes fa-brands fa-whatsapp mx-2"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom py-3">
+        <div class="row fs-4 text-center justify-content-center">
+          <div class="col-lg-4 col-md-7 text-lg-end text-md-end">
+            &copy; 2022 <span class="marca fw-bold mx-1">Luly Nails</span> |
+            Creada por
+          </div>
+          <div class="col-lg-2 col-md-4 fw-bold">
+            <a href="#" class="autor">Arguello Soledad</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!---  JS BOOTSTRAP ------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

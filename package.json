@@ -1,0 +1,23 @@
+{
+  "name": "pf-arguellomariasoledad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sole-arguello/PF-ArguelloMariaSoledad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sole-arguello/PF-ArguelloMariaSoledad/issues"
+  },
+  "homepage": "https://github.com/sole-arguello/PF-ArguelloMariaSoledad#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
