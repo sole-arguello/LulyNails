@@ -1,0 +1,80 @@
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+  .home {
+    &__portada {
+      &--container {
+        &-img {
+          height: 550px;
+        }
+      }
+    }
+    &__service {
+      &--articulo {
+        width: 18%;
+        &-card {
+          width: 100%;
+          .card__img {
+            width: 110%;
+            height: 180px;
+          }
+          .card__info {
+            &--line {
+              width: 50%;
+              height: 2%;
+              margin: 1rem 2rem 2rem 2rem;
+            }
+            &--title {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .home {
+    &__service {
+      &--articulo {
+        &-card {
+          .card__img {
+            height: 220px;
+          }
+          .card__info {
+            &--line {
+              width: 30%;
+              height: 3%;
+              margin: 1rem 3.8rem 2rem 3.8rem;
+            }
+            &--title {
+              font-size: 1.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-up(xxl) {
+    .home {
+      &__service {
+        &--articulo {
+          &-card {
+            .card__img {
+            }
+            .card__info {
+              &--line {
+                margin: 1rem 4.7rem 2rem 4.7rem;
+              }
+              &--title {
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

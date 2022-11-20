@@ -1,0 +1,44 @@
+.home {
+  background: map-get($fondos, degrade1);
+  &__portada {
+    &--container {
+      &-img {
+        height: 450px;
+      }
+      &-titulo {
+        top: 70%;
+        font-style: oblique;
+        color: map-get($color-text, text-1);
+        text-shadow: map-get($sombras, sombraText-3);
+      }
+    }
+  }
+  &__service {
+    &--articulo {
+      &-card {
+        background: none;
+        color: map-get($color-text, text-1);
+        .card__img {
+          width: 100%;
+          height: 250px;
+          border-radius: 100%;
+          border: map-get($bordes, borde-3);
+        }
+        .card__info {
+          &--line {
+            width: 30%;
+            height: 3%;
+            border: 1px solid;
+            border-radius: 100%;
+            margin: 1rem 5rem 2rem 5rem;
+            background: map-get($fondos , fondo-4 );
+          }
+          &--title {
+            font-size: 2rem;
+            text-shadow: map-get($sombras, sombraText-3);
+          }
+        }
+      }
+    }
+  }
+}
