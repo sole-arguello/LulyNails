@@ -1,0 +1,22 @@
+footer {
+  color: map-get($color-text, text-6);
+  text-shadow: map-get($sombras, sombraText-1);
+  background: map-get($fondos, fondo-5);
+  box-shadow: map-get($sombras, sombraBox-3);
+  .container__redes {
+    &--icono {
+      .link {
+        color: map-get($color-text, text-4);
+      }
+    }
+  }
+  .container__autor {
+    &--name {
+      .link__autor {
+        text-decoration: none;
+        font-style: oblique;
+        color: map-get($color-text, text-4);
+      }
+    }
+  }
+}

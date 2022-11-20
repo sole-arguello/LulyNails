@@ -10827,6 +10827,21 @@ header div ul li a:hover {
   text-shadow: 1px 1px 2px rgb(233, 225, 225);
 }
 
+footer {
+  color: rgb(253, 211, 163);
+  text-shadow: 1px 1px 2px rgb(58, 56, 56);
+  background: rgb(146, 50, 65);
+  box-shadow: -2px -2px 5px black;
+}
+footer .container__redes--icono .link {
+  color: blanchedalmond;
+}
+footer .container__autor--name .link__autor {
+  text-decoration: none;
+  font-style: oblique;
+  color: blanchedalmond;
+}
+
 @media (min-width: 992px) {
   .home__portada--container-img {
     height: 550px;
