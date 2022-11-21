@@ -10782,6 +10782,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  /*outline: 1px solid green;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header nav a .navBar__logo {
   border-radius: 100%;
 }
@@ -10842,6 +10849,169 @@ footer .container__autor--name .link__autor {
   color: blanchedalmond;
 }
 
+.service {
+  background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
+}
+.service .service__manicure .service__manicure--title,
+.service .service__manicure .service__otros--title,
+.service .service__otros .service__manicure--title,
+.service .service__otros .service__otros--title {
+  font-size: 2.5rem;
+  color: rgb(97, 20, 45);
+  text-shadow: 1px 1px 2px black;
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card,
+.service .service__manicure .service__manicure--container .service__otros--container-card,
+.service .service__manicure .service__otros--container .service__manicure--container-card,
+.service .service__manicure .service__otros--container .service__otros--container-card,
+.service .service__otros .service__manicure--container .service__manicure--container-card,
+.service .service__otros .service__manicure--container .service__otros--container-card,
+.service .service__otros .service__otros--container .service__manicure--container-card,
+.service .service__otros .service__otros--container .service__otros--container-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card .card__img,
+.service .service__manicure .service__manicure--container .service__otros--container-card .card__img,
+.service .service__manicure .service__otros--container .service__manicure--container-card .card__img,
+.service .service__manicure .service__otros--container .service__otros--container-card .card__img,
+.service .service__otros .service__manicure--container .service__manicure--container-card .card__img,
+.service .service__otros .service__manicure--container .service__otros--container-card .card__img,
+.service .service__otros .service__otros--container .service__manicure--container-card .card__img,
+.service .service__otros .service__otros--container .service__otros--container-card .card__img {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  /*border: map-get($bordes, borde-4);*/
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card .card__subtitle,
+.service .service__manicure .service__manicure--container .service__otros--container-card .card__subtitle,
+.service .service__manicure .service__otros--container .service__manicure--container-card .card__subtitle,
+.service .service__manicure .service__otros--container .service__otros--container-card .card__subtitle,
+.service .service__otros .service__manicure--container .service__manicure--container-card .card__subtitle,
+.service .service__otros .service__manicure--container .service__otros--container-card .card__subtitle,
+.service .service__otros .service__otros--container .service__manicure--container-card .card__subtitle,
+.service .service__otros .service__otros--container .service__otros--container-card .card__subtitle {
+  font-size: 1.2rem;
+  font-style: oblique;
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card .card__title,
+.service .service__manicure .service__manicure--container .service__otros--container-card .card__title,
+.service .service__manicure .service__otros--container .service__manicure--container-card .card__title,
+.service .service__manicure .service__otros--container .service__otros--container-card .card__title,
+.service .service__otros .service__manicure--container .service__manicure--container-card .card__title,
+.service .service__otros .service__manicure--container .service__otros--container-card .card__title,
+.service .service__otros .service__otros--container .service__manicure--container-card .card__title,
+.service .service__otros .service__otros--container .service__otros--container-card .card__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(97, 20, 45);
+  text-shadow: 1px 1px 2px rgb(146, 140, 140);
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card .card__line,
+.service .service__manicure .service__manicure--container .service__otros--container-card .card__line,
+.service .service__manicure .service__otros--container .service__manicure--container-card .card__line,
+.service .service__manicure .service__otros--container .service__otros--container-card .card__line,
+.service .service__otros .service__manicure--container .service__manicure--container-card .card__line,
+.service .service__otros .service__manicure--container .service__otros--container-card .card__line,
+.service .service__otros .service__otros--container .service__manicure--container-card .card__line,
+.service .service__otros .service__otros--container .service__otros--container-card .card__line {
+  width: 20%;
+  height: 0.7%;
+  border: 1px solid;
+  border-radius: 100%;
+  background: rgb(173, 79, 93);
+  color: rgb(131, 83, 98);
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card .card__text,
+.service .service__manicure .service__manicure--container .service__otros--container-card .card__text,
+.service .service__manicure .service__otros--container .service__manicure--container-card .card__text,
+.service .service__manicure .service__otros--container .service__otros--container-card .card__text,
+.service .service__otros .service__manicure--container .service__manicure--container-card .card__text,
+.service .service__otros .service__manicure--container .service__otros--container-card .card__text,
+.service .service__otros .service__otros--container .service__manicure--container-card .card__text,
+.service .service__otros .service__otros--container .service__otros--container-card .card__text {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 100;
+  line-height: 7mm;
+}
+.service .service__manicure .service__manicure--container .service__manicure--container-card,
+.service .service__manicure .service__otros--container .service__manicure--container-card,
+.service .service__otros .service__manicure--container .service__manicure--container-card,
+.service .service__otros .service__otros--container .service__manicure--container-card {
+  background: rgb(219, 200, 200);
+  border: 1px solid rgb(187, 185, 185);
+}
+.service .service__manicure .service__manicure--container .service__otros--container-card,
+.service .service__manicure .service__otros--container .service__otros--container-card,
+.service .service__otros .service__manicure--container .service__otros--container-card,
+.service .service__otros .service__otros--container .service__otros--container-card {
+  background: rgb(212, 179, 179);
+  border: 1px solid rgb(168, 167, 167);
+}
+
+@media (min-width: 768px) {
+  .service .service__manicure .service__manicure--title,
+  .service .service__manicure .service__otros--title,
+  .service .service__otros .service__manicure--title,
+  .service .service__otros .service__otros--title {
+    font-size: 3.5rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card,
+  .service .service__manicure .service__manicure--container .service__otros--container-card,
+  .service .service__manicure .service__otros--container .service__manicure--container-card,
+  .service .service__manicure .service__otros--container .service__otros--container-card,
+  .service .service__otros .service__manicure--container .service__manicure--container-card,
+  .service .service__otros .service__manicure--container .service__otros--container-card,
+  .service .service__otros .service__otros--container .service__manicure--container-card,
+  .service .service__otros .service__otros--container .service__otros--container-card {
+    width: 90%;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__img {
+    width: 400px;
+    height: 400px;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__subtitle,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__subtitle,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__subtitle,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__subtitle,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__subtitle,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__subtitle,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__subtitle,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__subtitle {
+    font-size: 2rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__title,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__title,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__title,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__title,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__title,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__title,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__title,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__title {
+    font-size: 2.5rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__line,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__line,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__line,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__line,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__line,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__line,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__line,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__line {
+    width: 15%;
+    margin: 1rem 7.5rem;
+  }
+}
 @media (min-width: 992px) {
   .home__portada--container-img {
     height: 550px;
@@ -10864,6 +11034,27 @@ footer .container__autor--name .link__autor {
   .home__service--articulo-card .card__info--title {
     font-size: 1.3rem;
   }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card,
+  .service .service__manicure .service__manicure--container .service__otros--container-card,
+  .service .service__manicure .service__otros--container .service__manicure--container-card,
+  .service .service__manicure .service__otros--container .service__otros--container-card,
+  .service .service__otros .service__manicure--container .service__manicure--container-card,
+  .service .service__otros .service__manicure--container .service__otros--container-card,
+  .service .service__otros .service__otros--container .service__manicure--container-card,
+  .service .service__otros .service__otros--container .service__otros--container-card {
+    width: 68%;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__img {
+    width: 400px;
+    height: 400px;
+  }
 }
 @media (min-width: 1200px) {
   .home__service--articulo-card .card__img {
@@ -10877,6 +11068,58 @@ footer .container__autor--name .link__autor {
   .home__service--articulo-card .card__info--title {
     font-size: 1.7rem;
   }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card,
+  .service .service__manicure .service__manicure--container .service__otros--container-card,
+  .service .service__manicure .service__otros--container .service__manicure--container-card,
+  .service .service__manicure .service__otros--container .service__otros--container-card,
+  .service .service__otros .service__manicure--container .service__manicure--container-card,
+  .service .service__otros .service__manicure--container .service__otros--container-card,
+  .service .service__otros .service__otros--container .service__manicure--container-card,
+  .service .service__otros .service__otros--container .service__otros--container-card {
+    width: 30%;
+    margin: 0 10px;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__img {
+    width: 220px;
+    height: 220px;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__subtitle,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__subtitle,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__subtitle,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__subtitle,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__subtitle,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__subtitle,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__subtitle,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__subtitle {
+    font-size: 1.2rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__title,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__title,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__title,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__title,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__title,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__title,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__title,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__title {
+    font-size: 1.5rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__text,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__text,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__text,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__text,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__text,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__text,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__text,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__text {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 1400px) {
   .home__service--articulo-card .card__info--line {
@@ -10884,6 +11127,17 @@ footer .container__autor--name .link__autor {
   }
   .home__service--articulo-card .card__info--title {
     font-size: 2rem;
+  }
+  .service .service__manicure .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__manicure .service__otros--container .service__otros--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__manicure--container .service__otros--container-card .card__img,
+  .service .service__otros .service__otros--container .service__manicure--container-card .card__img,
+  .service .service__otros .service__otros--container .service__otros--container-card .card__img {
+    width: 250px;
+    height: 250px;
   }
 }
 

@@ -1,4 +1,35 @@
 @include media-breakpoint-up(md) {
+  .service {
+    .service__manicure,
+    .service__otros {
+      .service__manicure--title,
+      .service__otros--title {
+        font-size: 3.5rem;
+      }
+      .service__manicure--container,
+      .service__otros--container {
+        .service__manicure--container-card,
+        .service__otros--container-card {
+          width: 90%;
+          .card__img {
+            width: 400px;
+            height: 400px;
+          }
+
+          .card__subtitle {
+            font-size: 2rem;
+          }
+          .card__title {
+            font-size: 2.5rem;
+          }
+          .card__line {
+            width: 15%;
+            margin: 1rem 7.5rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -33,9 +64,26 @@
       }
     }
   }
+  .service {
+    .service__manicure,
+    .service__otros {
+      .service__manicure--container,
+      .service__otros--container {
+        .service__manicure--container-card,
+        .service__otros--container-card {
+          width: 68%;
+          .card__img {
+            width: 400px;
+            height: 400px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(xl) {
+
   .home {
     &__service {
       &--articulo {
@@ -57,24 +105,66 @@
       }
     }
   }
+  .service {
+    .service__manicure,
+    .service__otros {
+      .service__manicure--container,
+      .service__otros--container {
+        .service__manicure--container-card,
+        .service__otros--container-card {
+          width: 30%;
+          margin: 0 10px;
+          .card__img {
+            width: 220px;
+            height: 220px;
+          }
+
+          .card__subtitle {
+            font-size: 1.2rem;
+          }
+          .card__title {
+            font-size: 1.5rem;
+          }
+          .card__text {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 @include media-breakpoint-up(xxl) {
-    .home {
-      &__service {
-        &--articulo {
-          &-card {
-            .card__img {
+  .home {
+    &__service {
+      &--articulo {
+        &-card {
+          .card__img {
+          }
+          .card__info {
+            &--line {
+              margin: 1rem 4.7rem 2rem 4.7rem;
             }
-            .card__info {
-              &--line {
-                margin: 1rem 4.7rem 2rem 4.7rem;
-              }
-              &--title {
-                font-size: 2rem;
-              }
+            &--title {
+              font-size: 2rem;
             }
           }
         }
       }
     }
   }
+  .service {
+    .service__manicure,
+    .service__otros {
+      .service__manicure--container,
+      .service__otros--container {
+        .service__manicure--container-card,
+        .service__otros--container-card {
+          .card__img {
+            width: 250px;
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+}
