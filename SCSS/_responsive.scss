@@ -46,6 +46,24 @@
       }
     }
   }
+  .galeria {
+    .galeria__title {
+      font-size: 3.5rem;
+      padding: 5rem 0 3rem 0;
+    }
+    .galeria__box {
+      .galeria__box--img {
+        margin: 0 1rem;
+        .galeria__box--img-img {
+          transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+            opacity 250ms linear;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -154,7 +172,21 @@
       }
     }
   }
+  .galeria {
+    .galeria__title {
+      padding: 5rem 0 3rem 0;
+    }
+    .galeria__box {
+      .galeria__box--img {
+        margin: 0rem;
+        .galeria__box--img-img {
+          width: 95%;
+        }
+      }
+    }
+  }
 }
+
 @include media-breakpoint-up(xxl) {
   .home {
     &__service {

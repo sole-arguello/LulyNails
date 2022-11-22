@@ -71,13 +71,13 @@
       </nav>
     </header>
 
-    <main class="main__contacto">
-      <section class="seccion__contacto py-5 mt-5">
-        <h1 class="contacto__titulo pt-5 text-center fw-bold">Contacto</h1>
-        <div class="row container mx-2">
-          <form class="col-lg-8 py-5 pb-md-5">
-            <div class="border border-secondary p-3 rounded-3">
-              <div class="mb-3">
+    <main class="contacto">
+      <section class="contacto__form-ubicacion py-5 mt-5">
+        <h1 class="contacto__form-ubicacion--titulo pt-5 text-center fw-bold">Contacto</h1>
+        <div class="contacto__form-ubicacion--container row container mx-2">
+          <form class="contacto__form col-lg-8 py-5 pb-md-5">
+            <div class="contacto__form--container border border-secondary p-3 rounded-3">
+              <div class="contacto__form--container-name mb-3">
                 <label for="exampleFormControlInput1" class="form-label"
                   >Nombre y Apellido</label
                 >
@@ -88,7 +88,7 @@
                   placeholder="Ingrese su nombre"
                 />
               </div>
-              <div class="mb-3">
+              <div class="contacto__form--container-email mb-3">
                 <label for="exampleFormControlInput1" class="form-label"
                   >Email</label
                 >
@@ -99,7 +99,7 @@
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="mb-3">
+              <div class="contacto__form--container-mje mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label"
                   >Mensaje</label
                 >
@@ -110,28 +110,28 @@
                   placeholder="Ingrese su mensaje"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-outline-secondary px-5">
+              <button type="submit" class="contacto__form--container-btn btn btn-outline-secondary px-5">
                 Enviar
               </button>
             </div>
           </form>
-          <div class="col-lg-4 d-lg-block d-sm-flex justify-content-between">
-            <div>
-              <p class="">
+          <div class="contacto__ubicacion col-lg-4 d-lg-block d-sm-flex justify-content-between">
+            <div class="contacto__ubicacion--container">
+              <p class="contacto__ubicacion--container-direction">
                 <i class="fa-solid fa-location-dot mx-3 fs-4 mt-lg-5"></i
                 >Remonda xxx, CORDOBA
               </p>
-              <p>
+              <p class="contacto__ubicacion--container-phone">
                 <i class="fa-solid fa-phone mx-3 fs-4"></i>+ 54 9 351 213-8337
               </p>
-              <p>
+              <p class="contacto__ubicacion--container-email">
                 <i class="fa-solid fa-envelope mx-3 fs-4"></i
                 >lourdesbustos67@gmail.com
               </p>
             </div>
 
             <iframe
-              class="mapa"
+              class="contacto__mapa"
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3406.
               8265825447907!2d-64.17181798485325!3d-31.
               363764381421742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
@@ -147,11 +147,11 @@
         </div>
       </section>
       <hr />
-      <section class="seccion__preguntas py-5 px-3">
-        <h2 class="contacto__preguntas pb-3 text-center">
+      <section class="contacto__preguntas py-5 px-3">
+        <h2 class="contacto__preguntas--title pb-3 text-center">
           Preguntas frecuentes
         </h2>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="contacto__preguntas--acordeon accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item bg-transparent">
             <h2 class="accordion-header" id="flush-headingOne">
               <button

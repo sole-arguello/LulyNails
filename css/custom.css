@@ -10970,6 +10970,24 @@ footer .container__autor--name .link__autor {
   font-size: 3rem;
 }
 
+.galeria {
+  color: rgb(97, 20, 45);
+  text-shadow: 1px 1px 2px black;
+  background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
+}
+.galeria .galeria__title {
+  font-size: 2rem;
+  padding: 5rem 0 2rem 0;
+}
+.galeria .galeria__box {
+  margin: 0 1rem;
+}
+.galeria .galeria__box .galeria__box--img .galeria__box--img-img {
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5019607843);
+}
+
 @media (min-width: 768px) {
   .service .service__manicure .service__manicure--title,
   .service .service__manicure .service__otros--title,
@@ -11034,6 +11052,19 @@ footer .container__autor--name .link__autor {
   }
   .nosotros .nosotros__team .nosotros__team--container .nosotros__team--container-card .nosotros__card .nosotros__info .nosotros__info--name {
     font-size: 2rem;
+  }
+  .galeria .galeria__title {
+    font-size: 3.5rem;
+    padding: 5rem 0 3rem 0;
+  }
+  .galeria .galeria__box .galeria__box--img {
+    margin: 0 1rem;
+  }
+  .galeria .galeria__box .galeria__box--img .galeria__box--img-img {
+    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  }
+  .galeria .galeria__box .galeria__box--img .galeria__box--img-img:hover {
+    transform: scale(1.2);
   }
 }
 @media (min-width: 992px) {
@@ -11146,6 +11177,15 @@ footer .container__autor--name .link__autor {
   }
   .nosotros .nosotros__team .nosotros__team--container {
     margin: 0 6.5rem;
+  }
+  .galeria .galeria__title {
+    padding: 5rem 0 3rem 0;
+  }
+  .galeria .galeria__box .galeria__box--img {
+    margin: 0rem;
+  }
+  .galeria .galeria__box .galeria__box--img .galeria__box--img-img {
+    width: 95%;
   }
 }
 @media (min-width: 1400px) {
