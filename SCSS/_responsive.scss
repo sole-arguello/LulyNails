@@ -30,6 +30,22 @@
       }
     }
   }
+  .nosotros {
+    .nosotros__team {
+      .nosotros__team--container {
+        margin: 0 2rem;
+        .nosotros__team--container-card {
+          .nosotros__card {
+            .nosotros__info {
+              .nosotros__info--name {
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -83,7 +99,6 @@
 }
 
 @include media-breakpoint-up(xl) {
-
   .home {
     &__service {
       &--articulo {
@@ -132,6 +147,13 @@
       }
     }
   }
+  .nosotros {
+    .nosotros__team {
+      .nosotros__team--container {
+        margin: 0 6.5rem;
+      }
+    }
+  }
 }
 @include media-breakpoint-up(xxl) {
   .home {
@@ -164,6 +186,13 @@
             height: 250px;
           }
         }
+      }
+    }
+  }
+  .nosotros {
+    .nosotros__team {
+      .nosotros__team--container {
+        margin: 0 8rem;
       }
     }
   }

@@ -10952,6 +10952,24 @@ footer .container__autor--name .link__autor {
   border: 1px solid rgb(168, 167, 167);
 }
 
+.nosotros {
+  color: rgb(97, 20, 45);
+  text-shadow: 1px 1px 2px rgb(58, 56, 56);
+  background: linear-gradient(to bottom, rgb(236, 226, 228), rgb(238, 173, 178));
+}
+.nosotros .nosotros__team {
+  margin-top: 1.5rem;
+}
+.nosotros .nosotros__team .nosotros__team--container {
+  margin: 0 0.5rem;
+}
+.nosotros .nosotros__team .nosotros__team--container .nosotros__team--container-card .nosotros__card .nosotros__info .nosotros__info--name {
+  font-size: 2.5rem;
+}
+.nosotros .nosotros__somos .nosotros__somos--container .nosotros__somos--container-title {
+  font-size: 3rem;
+}
+
 @media (min-width: 768px) {
   .service .service__manicure .service__manicure--title,
   .service .service__manicure .service__otros--title,
@@ -11010,6 +11028,12 @@ footer .container__autor--name .link__autor {
   .service .service__otros .service__otros--container .service__otros--container-card .card__line {
     width: 15%;
     margin: 1rem 7.5rem;
+  }
+  .nosotros .nosotros__team .nosotros__team--container {
+    margin: 0 2rem;
+  }
+  .nosotros .nosotros__team .nosotros__team--container .nosotros__team--container-card .nosotros__card .nosotros__info .nosotros__info--name {
+    font-size: 2rem;
   }
 }
 @media (min-width: 992px) {
@@ -11120,6 +11144,9 @@ footer .container__autor--name .link__autor {
   .service .service__otros .service__otros--container .service__otros--container-card .card__text {
     font-size: 1rem;
   }
+  .nosotros .nosotros__team .nosotros__team--container {
+    margin: 0 6.5rem;
+  }
 }
 @media (min-width: 1400px) {
   .home__service--articulo-card .card__info--line {
@@ -11138,6 +11165,9 @@ footer .container__autor--name .link__autor {
   .service .service__otros .service__otros--container .service__otros--container-card .card__img {
     width: 250px;
     height: 250px;
+  }
+  .nosotros .nosotros__team .nosotros__team--container {
+    margin: 0 8rem;
   }
 }
 

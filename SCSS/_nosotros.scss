@@ -1,0 +1,29 @@
+.nosotros {
+  color: map-get($color-text, text-1);
+  text-shadow: map-get($sombras, sombraText-1);
+  background: map-get($fondos, degrade2);
+  .nosotros__team {
+    margin-top: 1.5rem;
+
+    .nosotros__team--container {
+      margin: 0 0.5rem;
+      .nosotros__team--container-card {
+        .nosotros__card {
+          .nosotros__info {
+            .nosotros__info--name {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .nosotros__somos{
+    .nosotros__somos--container{
+        .nosotros__somos--container-title{
+            font-size: 3rem;
+        }
+    }
+
+  }
+}
