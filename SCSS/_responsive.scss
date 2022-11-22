@@ -31,13 +31,13 @@
     }
   }
   .nosotros {
-    .nosotros__team {
-      .nosotros__team--container {
+    &__team {
+      &--container {
         margin: 0 2rem;
-        .nosotros__team--container-card {
+        &-card {
           .nosotros__card {
-            .nosotros__info {
-              .nosotros__info--name {
+            &--info {
+              &-name {
                 font-size: 2rem;
               }
             }
@@ -47,14 +47,14 @@
     }
   }
   .galeria {
-    .galeria__title {
+    &__title {
       font-size: 3.5rem;
       padding: 5rem 0 3rem 0;
     }
-    .galeria__box {
-      .galeria__box--img {
+    &__box {
+      &--img {
         margin: 0 1rem;
-        .galeria__box--img-img {
+        &-img {
           transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
             opacity 250ms linear;
           &:hover {
@@ -114,6 +114,13 @@
       }
     }
   }
+  .nosotros {
+    &__team {
+      &--title{
+        font-size: 4rem;
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(xl) {
@@ -166,20 +173,20 @@
     }
   }
   .nosotros {
-    .nosotros__team {
-      .nosotros__team--container {
+    &__team {
+      &--container {
         margin: 0 6.5rem;
       }
     }
   }
   .galeria {
-    .galeria__title {
+    &__title {
       padding: 5rem 0 3rem 0;
     }
-    .galeria__box {
-      .galeria__box--img {
+    &__box {
+      &--img {
         margin: 0rem;
-        .galeria__box--img-img {
+        &-img {
           width: 95%;
         }
       }
@@ -222,8 +229,8 @@
     }
   }
   .nosotros {
-    .nosotros__team {
-      .nosotros__team--container {
+    &__team {
+      &--container {
         margin: 0 8rem;
       }
     }

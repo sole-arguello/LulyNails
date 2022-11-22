@@ -1,17 +1,17 @@
 .service {
   background: map-get($fondos, degrade1);
-  .service__manicure,
-  .service__otros {
-    .service__manicure--title, 
-    .service__otros--title {
+  &__manicure,
+  &__otros {
+    &--title, 
+    &--title {
       font-size: 2.5rem;
       color: map-get($color-text, text-1);
       text-shadow: map-get($sombras, sombraBox-1);
     }
-    .service__manicure--container,
-    .service__otros--container {
-      .service__manicure--container-card,
-      .service__otros--container-card {
+    &--container,
+    &--container {
+      &-card,
+      &-card {
         @include flex-col-center;
         .card__img {
           width: 220px;
