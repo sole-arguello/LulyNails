@@ -10988,6 +10988,39 @@ footer .container__autor--name .link__autor {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5019607843);
 }
 
+.contacto {
+  color: rgb(97, 20, 45);
+  text-shadow: 1px 1px 2px black;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../assets/contacto/depositphotos_317114954-stock-photo-closeup-of-nails-in-uv.webp);
+  background-size: cover;
+  background-position-y: 20%;
+  background-position-x: center;
+  background-position: center 20%;
+}
+.contacto .contacto__form-ubicacion .contacto__form-ubicacion--title {
+  font-size: 3rem;
+}
+.contacto .contacto__form-ubicacion .contacto__form-ubicacion--container .contacto__form .contacto__form--container .contacto__form--container-btn {
+  width: 30%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-radius: 5%;
+  color: rgb(97, 20, 45);
+  border: 1px solid rgb(97, 20, 45);
+}
+.contacto .contacto__form-ubicacion .contacto__form-ubicacion--container .contacto__ubicacion .contacto__ubicacion--container .contacto__ubicacion--container-direction {
+  color: black;
+}
+.contacto .contacto__form-ubicacion .contacto__form-ubicacion--container .contacto__ubicacion .contacto__ubicacion--container .contacto__ubicacion--container-phone {
+  color: black;
+}
+.contacto .contacto__form-ubicacion .contacto__form-ubicacion--container .contacto__ubicacion .contacto__ubicacion--container .contacto__ubicacion--container-email {
+  color: black;
+}
+.contacto .contacto__preguntas .contacto__preguntas--title {
+  font-size: 3rem;
+}
+
 @media (min-width: 768px) {
   .service .service__manicure .service__manicure--title,
   .service .service__manicure .service__otros--title,
