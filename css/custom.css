@@ -10802,14 +10802,19 @@ header div ul li a:hover {
 .home {
   background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
 }
-.home__portada--container-img {
-  height: 450px;
+.home__portada--container .portada__container--img {
+  height: 600px;
 }
-.home__portada--container-titulo {
-  top: 70%;
+.home__portada--container .portada__container--info {
   font-style: oblique;
   color: rgb(97, 20, 45);
   text-shadow: 1px 1px 2px rgb(233, 225, 225);
+}
+.home__portada--container .portada__container--info-title {
+  font-size: 1.5rem;
+}
+.home__portada--container .portada__container--info-text {
+  font-size: 5rem;
 }
 .home__service--articulo-card {
   background: none;

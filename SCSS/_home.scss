@@ -1,19 +1,27 @@
 .home {
   background: map-get($fondos, degrade1);
+
   &__portada {
     &--container {
-      &-img {
-        height: 450px;
-      }
-      &-titulo {
-        top: 70%;
-        font-style: oblique;
-        color: map-get($color-text, text-1);
-        text-shadow: map-get($sombras, sombraText-3);
+      .portada__container {
+        &--img {
+          height: 600px;
+        }
+        &--info {
+          font-style: oblique;
+          color: map-get($color-text, text-1);
+          text-shadow: map-get($sombras, sombraText-3);
+          &-title {
+            font-size: 1.5rem;
+          }
+          &-text {
+            font-size: 5rem;
+          }
+        }
       }
     }
   }
-  &__service {
+ &__service {
     &--articulo {
       &-card {
         background: none;
@@ -31,7 +39,7 @@
             border: 1px solid;
             border-radius: 100%;
             margin: 1rem 5rem 2rem 5rem;
-            background: map-get($fondos , fondo-4 );
+            background: map-get($fondos, fondo-4);
           }
           &--title {
             font-size: 2rem;
