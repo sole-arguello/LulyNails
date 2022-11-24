@@ -143,10 +143,8 @@
           </article>
         </div>
       </section>
-      <section
-        class="nosotros__somos row mx-2 py-5 justify-content-center container"
-      >
-        <div class="nosotros__somos--container col-md-6 clo-xl-7">
+      <section class="nosotros__somos row py-5">
+        <div class="nosotros__somos--container col-md-7">
           <p class="nosotros__somos--container-title">Quien Somos</p>
           <p class="nosotros__somos--container-text">
             Cortas o largas, cuadradas o redondas, naturales o pintadas, las
@@ -157,44 +155,28 @@
             líderes en el cuidado de manos y pies
           </p>
         </div>
-        <iframe
-          class="nosotros__video--somos col-md-6 col-xl-4"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/P_bOddOm9Bw"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
-
-        <!-- <iframe
-          class="nosotros__video--somos col-md-6 col-xl-4"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/MF4lx4BViLQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>-->
+        <video class="nosotros__somos--video col-md-5" controls autoplay>
+          <source src="../assets/nosotros/VideoLulyNails2.mp4" type="video/mp4">
+        </video>
       </section>
     </main>
     <footer class="text-center pt-1">
       <div class="container__redes fs-3 d-md-flex justify-content-center">
         <div class="pb-2 fw-bold">Buscanos en las redes</div>
-        <div class="container__redes--icono px-5">
-          <a href="#" class="link"
-            ><i class="icono__redes fa-brands fa-facebook mx-2"></i
-          ></a>
-          <a href="#" class="link"
-            ><i class="icono__redes fa-brands fa-instagram mx-2"></i
-          ></a>
-          <a href="#" class="link"
-            ><i class="icono__redes fa-brands fa-whatsapp mx-2"></i
-          ></a>
+        <div class="container__redes--icono wrapper px-5">
+          <div class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span><i class="fa-brands fa-instagram"></i></span>
+          </div>
+
+          <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+          </div>
+          <div class="icon email">
+            <div class="tooltip">Email</div>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
         </div>
       </div>
 

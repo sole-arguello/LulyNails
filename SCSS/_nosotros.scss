@@ -22,10 +22,15 @@
     }
   }
   &__somos{
+    margin: 0 2rem;
     &--container{
         &-title{
             font-size: 3rem;
         }
+    }
+    &----video{
+      width: 450px;
+      height: 250px;
     }
 
   }
