@@ -10839,6 +10839,30 @@ header div ul li a:hover {
   text-shadow: 1px 1px 2px rgb(233, 225, 225);
 }
 
+.watsap .btn-wsp {
+  z-index: 100;
+  width: 55px;
+  height: 55px;
+  bottom: 30px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 55px;
+  border-radius: 50px;
+  position: fixed;
+  text-align: center;
+  color: blanchedalmond;
+  background: #fff;
+  text-shadow: 1px 1px 2px rgb(58, 56, 56);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.watsap .btn-wsp:hover {
+  text-decoration: none;
+  color: rgb(175, 119, 128);
+  text-shadow: 1px 1px 2px rgb(58, 56, 56);
+  background: rgb(97, 20, 45);
+}
+
 footer {
   color: rgb(253, 211, 163);
   text-shadow: 1px 1px 2px rgb(58, 56, 56);
