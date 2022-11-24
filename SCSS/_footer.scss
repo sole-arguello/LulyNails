@@ -7,64 +7,62 @@ footer {
     &--icono {
       display: inline-flex;
       .icon {
-        margin: 0 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        position: relative;
         z-index: 2;
+        margin: 0 20px;
         cursor: pointer;
-        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        position: relative;
+        display: flex;
+        @include alingItems-direction-justify(center, column, center);
+        transition: map-get($efectos , transicion-1 );
         &:hover {
           .tooltip {
-            color: #fff;
             top: -70px;
             opacity: 1;
             pointer-events: auto;
-            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+            color: map-get($color-text , text-11 );
+            text-shadow: map-get($sombras , sombraText-6 );
           }
           span {
-            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+            text-shadow: map-get($sombras , sombraText-6 );
             i {
-              color: #fff;
+              color: map-get($color-text , text-11 );
             }
           }
         }
         .tooltip {
-          position: absolute;
           top: 0px;
-          background: #fff;
-          color: #fff;
+          opacity: 0;
           font-size: 20px;
+          position: absolute;
           padding: 10px 18px;
           border-radius: 25px;
-          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-          opacity: 0;
-          pointer-events: none;
-          transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+          pointer-events: none;     
+          color: map-get($color-text , text-11 );
+          background: map-get($fondos , fondo-6 );
+          box-shadow: map-get($sombras , sombraBox-6 );          
+          transition: map-get($efectos , transicion-1 );
           &::before {
-            position: absolute;
+            left: 50%;
             content: "";
             height: 15px;
             width: 15px;
-            background: #fff;
             bottom: -8px;
-            left: 50%;
+            position: absolute;
+            background: map-get($fondos , fondo-6 );
             transform: translate(-50%) rotate(45deg);
-            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transition: map-get($efectos , transicion-1 );
           }
         }
         span {
-          position: relative;
+          z-index: 2;
           height: 45px;
           width: 45px;
           display: block;
-          background: #fff;
           border-radius: 50%;
           text-align: center;
-          z-index: 2;
-          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          position: relative;
+          background: map-get($fondos , fondo-6 );
+          box-shadow: map-get($sombras , sombraBox-6 );
           i {
             font-size: 25px;
           }
@@ -73,35 +71,35 @@ footer {
 
       .instagram:hover {
         .tooltip {
-          background: #e1306c;
+          background: map-get($fondos , fondo-7 );
           &::before {
-            background: #e1306c;
+            background: map-get($fondos , fondo-7 );
           }
         }
         span {
-          background: #e1306c;
+          background: map-get($fondos , fondo-7 );
         }
       }
       .facebook:hover {
         .tooltip {
-          background: #3b5999;
+          background: map-get($fondos , fondo-8 );
           &::before {
-            background: #3b5999;
+            background: map-get($fondos , fondo-8 );
           }
         }
         span {
-          background: #3b5999;
+          background: map-get($fondos , fondo-8 );
         }
       }
       .email:hover{
         .tooltip{
-          background: #de463b;
+          background: map-get($fondos , fondo-9 );
           &::before{
-            background: #de463b;
+            background: map-get($fondos , fondo-9 );
           }
         }
         span{
-          background: #de463b;
+          background: map-get($fondos , fondo-9 );
         }
       }
       /*.link {
