@@ -36,6 +36,7 @@
     }
   }
   .nosotros {
+    padding: 0 2rem;
     &__team {
       &--container {
         margin: 0 2rem;
@@ -48,6 +49,18 @@
             }
           }
         }
+      }
+    }
+    &__somos{
+      &--container{
+        &-text{
+          width: 90%;
+          font-size: 1.5rem;
+        }
+      }
+      &--video{
+        margin-top: 1rem;
+        height: 250px;
       }
     }
   }
@@ -123,6 +136,17 @@
     &__team {
       &--title{
         font-size: 4rem;
+      }
+    }
+    &__somos{
+      &--container{
+        &-text{
+          width: 100%;
+          font-size: 1.2rem;
+        }
+      }
+      &--video{
+        height: 350px;
       }
     }
   }

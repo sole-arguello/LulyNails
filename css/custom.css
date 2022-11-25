@@ -11166,11 +11166,22 @@ footer .container__autor--name .link__autor {
     width: 15%;
     margin: 1rem 7.5rem;
   }
+  .nosotros {
+    padding: 0 2rem;
+  }
   .nosotros__team--container {
     margin: 0 2rem;
   }
   .nosotros__team--container-card .nosotros__card--info-name {
     font-size: 2rem;
+  }
+  .nosotros__somos--container-text {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .nosotros__somos--video {
+    margin-top: 1rem;
+    height: 250px;
   }
   .galeria__title {
     font-size: 3.5rem;
@@ -11231,6 +11242,13 @@ footer .container__autor--name .link__autor {
   }
   .nosotros__team--title {
     font-size: 4rem;
+  }
+  .nosotros__somos--container-text {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .nosotros__somos--video {
+    height: 350px;
   }
 }
 @media (min-width: 1200px) {
