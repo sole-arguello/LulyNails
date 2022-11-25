@@ -5,17 +5,16 @@
     &--container {
       .portada__container {
         &--img {
-          height: 680px;
+          height: 450px;
         }
         &--info {
           font-style: oblique;
           color: map-get($color-text, text-1);
           text-shadow: map-get($sombras, sombraText-3);
           &-title {
-            font-size: 1.5rem;
-          }
+            font-size: 1.5rem;          }
           &-text {
-            font-size: 5rem;
+            font-size: 3rem;
           }
         }
       }
@@ -24,21 +23,22 @@
  &__service {
     &--articulo {
       &-card {
+        align-items: center;
         background: none;
         color: map-get($color-text, text-1);
         .card__img {
-          width: 100%;
+          width: 250px;
           height: 250px;
           border-radius: 100%;
           border: map-get($bordes, borde-3);
         }
         .card__info {
           &--line {
-            width: 30%;
+            width: 40%;
             height: 3%;
             border: 1px solid;
             border-radius: 100%;
-            margin: 1rem 5rem 2rem 5rem;
+            margin: 1rem 2.5rem 2rem 2.5rem;
             background: map-get($fondos, fondo-4);
           }
           &--title {

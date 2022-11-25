@@ -1,4 +1,9 @@
 @include media-breakpoint-up(md) {
+  .watsap{
+    .btn-wsp{
+      bottom: 120px;
+    }
+  }
   .service {
     .service__manicure,
     .service__otros {

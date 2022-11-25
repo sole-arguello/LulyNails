@@ -10803,7 +10803,7 @@ header div ul li a:hover {
   background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
 }
 .home__portada--container .portada__container--img {
-  height: 680px;
+  height: 450px;
 }
 .home__portada--container .portada__container--info {
   font-style: oblique;
@@ -10814,24 +10814,25 @@ header div ul li a:hover {
   font-size: 1.5rem;
 }
 .home__portada--container .portada__container--info-text {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .home__service--articulo-card {
+  align-items: center;
   background: none;
   color: rgb(97, 20, 45);
 }
 .home__service--articulo-card .card__img {
-  width: 100%;
+  width: 250px;
   height: 250px;
   border-radius: 100%;
   border: 8px solid rgb(209, 136, 148);
 }
 .home__service--articulo-card .card__info--line {
-  width: 30%;
+  width: 40%;
   height: 3%;
   border: 1px solid;
   border-radius: 100%;
-  margin: 1rem 5rem 2rem 5rem;
+  margin: 1rem 2.5rem 2rem 2.5rem;
   background: rgb(97, 20, 45);
 }
 .home__service--articulo-card .card__info--title {
@@ -10843,7 +10844,7 @@ header div ul li a:hover {
   z-index: 100;
   width: 55px;
   height: 55px;
-  bottom: 30px;
+  bottom: 180px;
   right: 30px;
   font-size: 30px;
   font-weight: 600;
@@ -10924,8 +10925,8 @@ footer .container__redes--icono .icon .tooltip::before {
 }
 footer .container__redes--icono .icon span {
   z-index: 2;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   display: block;
   border-radius: 50%;
   text-align: center;
@@ -11104,6 +11105,9 @@ footer .container__autor--name .link__autor {
 }
 
 @media (min-width: 768px) {
+  .watsap .btn-wsp {
+    bottom: 120px;
+  }
   .service .service__manicure .service__manicure--title,
   .service .service__manicure .service__otros--title,
   .service .service__otros .service__manicure--title,
