@@ -86,15 +86,6 @@
 
 @include media-breakpoint-up(lg) {
   .home {
-    &__portada {
-      &--container {
-        .portada__container {
-          &-img {
-            height: 750px;
-          }
-        }
-      }
-    }
     &__service {
       &--articulo {
         width: 18%;
@@ -233,8 +224,6 @@
     &__service {
       &--articulo {
         &-card {
-          .card__img {
-          }
           .card__info {
             &--line {
               margin: 1rem 4.7rem 2rem 4.7rem;

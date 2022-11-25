@@ -10803,7 +10803,7 @@ header div ul li a:hover {
   background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
 }
 .home__portada--container .portada__container--img {
-  height: 450px;
+  height: 500px;
 }
 .home__portada--container .portada__container--info {
   font-style: oblique;
@@ -11198,9 +11198,6 @@ footer .container__autor--name .link__autor {
   }
 }
 @media (min-width: 992px) {
-  .home__portada--container .portada__container-img {
-    height: 750px;
-  }
   .home__service--articulo {
     width: 18%;
   }
