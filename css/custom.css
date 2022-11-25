@@ -11198,8 +11198,8 @@ footer .container__autor--name .link__autor {
   }
 }
 @media (min-width: 992px) {
-  .home__portada--container-img {
-    height: 550px;
+  .home__portada--container .portada__container-img {
+    height: 750px;
   }
   .home__service--articulo {
     width: 18%;

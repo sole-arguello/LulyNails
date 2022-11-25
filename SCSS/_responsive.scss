@@ -1,6 +1,6 @@
 @include media-breakpoint-up(md) {
-  .watsap{
-    .btn-wsp{
+  .watsap {
+    .btn-wsp {
       bottom: 120px;
     }
   }
@@ -51,14 +51,14 @@
         }
       }
     }
-    &__somos{
-      &--container{
-        &-text{
+    &__somos {
+      &--container {
+        &-text {
           width: 90%;
           font-size: 1.5rem;
         }
       }
-      &--video{
+      &--video {
         margin-top: 1rem;
         height: 250px;
       }
@@ -88,8 +88,10 @@
   .home {
     &__portada {
       &--container {
-        &-img {
-          height: 550px;
+        .portada__container {
+          &-img {
+            height: 750px;
+          }
         }
       }
     }
@@ -134,18 +136,18 @@
   }
   .nosotros {
     &__team {
-      &--title{
+      &--title {
         font-size: 4rem;
       }
     }
-    &__somos{
-      &--container{
-        &-text{
+    &__somos {
+      &--container {
+        &-text {
           width: 100%;
           font-size: 1.2rem;
         }
       }
-      &--video{
+      &--video {
         height: 350px;
       }
     }
@@ -207,7 +209,7 @@
         margin: 0 6.5rem;
       }
     }
-    &__somos{
+    &__somos {
       margin: 0 6rem;
     }
   }
@@ -266,7 +268,7 @@
         margin: 0 8rem;
       }
     }
-    &__somos{
+    &__somos {
       margin: 0 8rem;
     }
   }
