@@ -11202,7 +11202,7 @@ footer .container__autor--name .link__autor {
 }
 @media (min-width: 992px) {
   .home__portada--container .portada__container--img {
-    height: 750px;
+    height: 650px;
   }
   .home__portada--container .portada__container--info-title {
     font-size: 2rem;
