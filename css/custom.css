@@ -10827,13 +10827,16 @@ header div ul li a:hover {
   border-radius: 100%;
   border: 8px solid rgb(209, 136, 148);
 }
+.home__service--articulo-card .card__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .home__service--articulo-card .card__info--line {
+  height: 3px;
   width: 40%;
-  height: 3%;
-  border: 1px solid;
-  border-radius: 100%;
-  margin: 1rem 2.5rem 2rem 2.5rem;
-  background: rgb(97, 20, 45);
+  margin: 25px 0;
+  background: rgb(175, 119, 128);
 }
 .home__service--articulo-card .card__info--title {
   font-size: 2rem;
@@ -11198,6 +11201,15 @@ footer .container__autor--name .link__autor {
   }
 }
 @media (min-width: 992px) {
+  .home__portada--container .portada__container--img {
+    height: 600px;
+  }
+  .home__portada--container .portada__container--info-title {
+    font-size: 2rem;
+  }
+  .home__portada--container .portada__container--info-text {
+    font-size: 4rem;
+  }
   .home__service--articulo {
     width: 18%;
   }
@@ -11207,11 +11219,6 @@ footer .container__autor--name .link__autor {
   .home__service--articulo-card .card__img {
     width: 110%;
     height: 180px;
-  }
-  .home__service--articulo-card .card__info--line {
-    width: 50%;
-    height: 2%;
-    margin: 1rem 2rem 2rem 2rem;
   }
   .home__service--articulo-card .card__info--title {
     font-size: 1.3rem;
@@ -11251,11 +11258,6 @@ footer .container__autor--name .link__autor {
 @media (min-width: 1200px) {
   .home__service--articulo-card .card__img {
     height: 220px;
-  }
-  .home__service--articulo-card .card__info--line {
-    width: 30%;
-    height: 3%;
-    margin: 1rem 3.8rem 2rem 3.8rem;
   }
   .home__service--articulo-card .card__info--title {
     font-size: 1.7rem;
@@ -11329,9 +11331,6 @@ footer .container__autor--name .link__autor {
   }
 }
 @media (min-width: 1400px) {
-  .home__service--articulo-card .card__info--line {
-    margin: 1rem 4.7rem 2rem 4.7rem;
-  }
   .home__service--articulo-card .card__info--title {
     font-size: 2rem;
   }

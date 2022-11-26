@@ -1,4 +1,36 @@
 @include media-breakpoint-up(md) {
+  .home {  
+    &__portada {
+      &--container {
+        .portada__container {
+          &--img {
+          }
+          &--info {
+            &-title {
+            }
+            &-text {
+              
+            }
+          }
+        }
+      }
+    }
+    &__service {
+      &--articulo {
+        &-card {
+          .card__img {
+          }
+          .card__info {
+            &--line {
+            }
+            &--title {
+
+            }
+          }
+        }
+      }
+    }
+  }
   .watsap {
     .btn-wsp {
       bottom: 120px;
@@ -85,7 +117,25 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .home {
+  .home {  
+    &__portada {
+      &--container {
+        .portada__container {
+          &--img {
+            height: 600px;
+          }
+          &--info {
+            &-title {
+              font-size: 2rem;
+            }
+            &-text {
+              font-size: 4rem;
+              
+            }
+          }
+        }
+      }
+    }
     &__service {
       &--articulo {
         width: 18%;
@@ -96,11 +146,6 @@
             height: 180px;
           }
           .card__info {
-            &--line {
-              width: 50%;
-              height: 2%;
-              margin: 1rem 2rem 2rem 2rem;
-            }
             &--title {
               font-size: 1.3rem;
             }
@@ -154,11 +199,6 @@
             height: 220px;
           }
           .card__info {
-            &--line {
-              width: 30%;
-              height: 3%;
-              margin: 1rem 3.8rem 2rem 3.8rem;
-            }
             &--title {
               font-size: 1.7rem;
             }
@@ -225,9 +265,6 @@
       &--articulo {
         &-card {
           .card__info {
-            &--line {
-              margin: 1rem 4.7rem 2rem 4.7rem;
-            }
             &--title {
               font-size: 2rem;
             }

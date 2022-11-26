@@ -34,13 +34,12 @@
           border: map-get($bordes, borde-3);
         }
         .card__info {
+          @include flex-col-center;
           &--line {
+            height: 3px;
             width: 40%;
-            height: 3%;
-            border: 1px solid;
-            border-radius: 100%;
-            margin: 1rem 2.5rem 2rem 2.5rem;
-            background: map-get($fondos, fondo-4);
+            margin: 25px 0;
+            background: map-get($color-text, text-2);
           }
           &--title {
             font-size: 2rem;
