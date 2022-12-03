@@ -24,25 +24,39 @@
   &__service {
     &--articulo {
       &-card {
-        align-items: center;
         background: none;
         color: map-get($color-text, text-1);
-        .card__img {
-          width: 250px;
-          height: 250px;
-          border-radius: 100%;
-          border: map-get($bordes, borde-3);
+        .card__linK{
+          /*
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          display: flex;
+          width: 100%;*/
+          .card__img {
+            aspect-ratio: 1/1;
+            border: 8px solid rgb(209, 136, 148);
+            border-radius: 50%;
+            flex-grow: 1;
+            object-fit: cover;
+         
+            /*
+             height: 250px;
+             border-radius: 100%;
+             border: map-get($bordes, borde-3);*/
+           }
         }
+        
         .card__info {
-          @include flex-col-center;
-          &--line {
-            height: 3px;
+          
+         &--line {
+          /*
+            height: 2px;
             width: 40%;
-            margin: 25px 0;
-            background: map-get($color-text, text-2);
+            margin: 25px 2.6rem;
+            background: map-get($color-text, text-2);*/
           }
           &--title {
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-shadow: map-get($sombras, sombraText-3);
           }
         }

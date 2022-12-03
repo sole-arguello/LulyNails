@@ -1,36 +1,4 @@
 @include media-breakpoint-up(md) {
-  .home {  
-    &__portada {
-      &--container {
-        .portada__container {
-          &--img {
-          }
-          &--info {
-            &-title {
-            }
-            &-text {
-              
-            }
-          }
-        }
-      }
-    }
-    &__service {
-      &--articulo {
-        &-card {
-          .card__img {
-          }
-          .card__info {
-            &--line {
-            }
-            &--title {
-
-            }
-          }
-        }
-      }
-    }
-  }
   .watsap {
     .btn-wsp {
       bottom: 120px;
@@ -142,8 +110,8 @@
         &-card {
           width: 100%;
           .card__img {
-            width: 110%;
-            height: 180px;
+           /* width: 110%;
+            height: 180px;*/
           }
           .card__info {
             &--title {

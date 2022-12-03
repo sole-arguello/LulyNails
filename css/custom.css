@@ -10817,29 +10817,36 @@ header div ul li a:hover {
   font-size: 3rem;
 }
 .home__service--articulo-card {
-  align-items: center;
   background: none;
   color: rgb(97, 20, 45);
 }
-.home__service--articulo-card .card__img {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  border: 8px solid rgb(209, 136, 148);
-}
-.home__service--articulo-card .card__info {
+.home__service--articulo-card .card__linK {
+  /*
+  aspect-ratio: 1/1;
+  border-radius: 50%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;*/
+}
+.home__service--articulo-card .card__linK .card__img {
+  aspect-ratio: 1/1;
+  border: 8px solid rgb(209, 136, 148);
+  border-radius: 50%;
+  flex-grow: 1;
+  object-fit: cover;
+  /*
+   height: 250px;
+   border-radius: 100%;
+   border: map-get($bordes, borde-3);*/
 }
 .home__service--articulo-card .card__info--line {
-  height: 3px;
-  width: 40%;
-  margin: 25px 0;
-  background: rgb(175, 119, 128);
+  /*
+    height: 2px;
+    width: 40%;
+    margin: 25px 2.6rem;
+    background: map-get($color-text, text-2);*/
 }
 .home__service--articulo-card .card__info--title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow: 1px 1px 2px rgb(233, 225, 225);
 }
 
@@ -11217,8 +11224,8 @@ footer .container__autor--name .link__autor {
     width: 100%;
   }
   .home__service--articulo-card .card__img {
-    width: 110%;
-    height: 180px;
+    /* width: 110%;
+     height: 180px;*/
   }
   .home__service--articulo-card .card__info--title {
     font-size: 1.3rem;
