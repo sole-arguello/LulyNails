@@ -10816,6 +10816,9 @@ header div ul li a:hover {
 .home__portada--container .portada__container--info-text {
   font-size: 3rem;
 }
+.home__service--articulo {
+  padding: 3rem 0 0 0;
+}
 .home__service--articulo-card {
   background: none;
   color: rgb(97, 20, 45);
@@ -11126,14 +11129,14 @@ footer .container__autor--name .link__autor {
     font-size: 2rem;
   }
   .home__service {
-    padding: 0 4rem;
+    padding: 3rem 4rem 0 4rem;
   }
   .home__service--articulo-card .card__img {
     width: 250px;
     height: 250px;
   }
   .home__service--articulo-card .card__info--line {
-    margin: 1rem 6.2rem 2rem 6.2rem;
+    margin: 1rem 6.8rem 2rem 6.8rem;
   }
   .home__service--articulo-card .card__info--title {
     font-size: 1.8rem;
@@ -11243,7 +11246,7 @@ footer .container__autor--name .link__autor {
   }
   .home__service--articulo-card .card__info--line {
     width: 15%;
-    margin: 1rem 9.8rem 2rem 9.8rem;
+    margin: 1rem 10.2rem 2rem 10.2rem;
   }
   .service .service__manicure .service__manicure--container .service__manicure--container-card,
   .service .service__manicure .service__manicure--container .service__otros--container-card,
@@ -11284,18 +11287,18 @@ footer .container__autor--name .link__autor {
 /* mayor igual 1200px*/
 @media (min-width: 1200px) {
   .home__service {
-    padding: 0 1rem;
+    padding: 1rem;
   }
   .home__service--articulo {
     width: 20%;
   }
   .home__service--articulo-card .card__img {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
   }
-  .home__service--articulo-card * .card__info--line {
+  .home__service--articulo-card .card__info--line {
     width: 30%;
-    margin: 1rem 4.5rem 2rem 4.5rem;
+    margin: 1rem 4.2rem 2rem 4.2rem;
   }
   .service .service__manicure .service__manicure--container .service__manicure--container-card,
   .service .service__manicure .service__manicure--container .service__otros--container-card,
@@ -11367,6 +11370,14 @@ footer .container__autor--name .link__autor {
 }
 /* mayor igual 1400px*/
 @media (min-width: 1400px) {
+  .home__service--articulo-card .card__img {
+    width: 260px;
+    height: 260px;
+  }
+  .home__service--articulo-card .card__info--line {
+    width: 30%;
+    margin: 1rem 5rem 2rem 5rem;
+  }
   .home__service--articulo-card .card__info--title {
     font-size: 2rem;
   }

@@ -23,6 +23,7 @@
   }
   &__service {
     &--articulo {
+      padding: 3rem 0 0 0;
       &-card {
         background: none;
         color: map-get($color-text, text-1);

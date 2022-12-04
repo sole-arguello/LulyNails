@@ -42,7 +42,7 @@
       }
     }
     &__service {
-      padding: 0 4rem;
+      padding: 3rem 4rem 0 4rem;
       &--articulo {
         &-card {
           .card__img {
@@ -51,7 +51,7 @@
           }
           .card__info {
             &--line {
-              margin: 1rem 6.2rem 2rem 6.2rem;
+              margin: 1rem 6.8rem 2rem 6.8rem;
             }
             &--title {
               font-size: 1.8rem;
@@ -172,7 +172,7 @@
           .card__info {
             &--line {
               width: 15%;
-              margin: 1rem 9.8rem 2rem 9.8rem;
+              margin: 1rem 10.2rem 2rem 10.2rem;
             }
           }
         }
@@ -232,18 +232,18 @@
 @include media-breakpoint-up(xl) {
   .home {
     &__service {
-      padding: 0 1rem;
+      padding: 1rem;
       &--articulo {
         width: 20%;
         &-card {
           .card__img {
-            width: 260px;
-            height: 260px;
-          }*
+            width: 220px;
+            height: 220px;
+          }
           .card__info {
             &--line {
               width: 30%;
-              margin: 1rem 4.5rem 2rem 4.5rem;
+              margin: 1rem 4.2rem 2rem 4.2rem;
             }
           }
         }
@@ -307,7 +307,16 @@
     &__service {
       &--articulo {
         &-card {
+          .card__img {
+            width: 260px;
+            height: 260px;
+          }
           .card__info {
+            &--line {
+              width: 30%;
+              margin: 1rem 5rem 2rem 5rem;
+
+            }
             &--title {
               font-size: 2rem;
             }
