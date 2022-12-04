@@ -10783,7 +10783,7 @@ textarea.form-control-lg {
   }
 }
 * {
-  /*outline: 1px solid green;*/
+  outline: 1px solid green;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10803,7 +10803,7 @@ header div ul li a:hover {
   background: linear-gradient(to bottom, rgb(241, 235, 236), rgb(238, 173, 178));
 }
 .home__portada--container .portada__container--img {
-  height: 500px;
+  height: 400px;
 }
 .home__portada--container .portada__container--info {
   font-style: oblique;
@@ -10820,30 +10820,19 @@ header div ul li a:hover {
   background: none;
   color: rgb(97, 20, 45);
 }
-.home__service--articulo-card .card__linK {
-  /*
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  display: flex;
-  width: 100%;*/
-}
-.home__service--articulo-card .card__linK .card__img {
-  aspect-ratio: 1/1;
-  border: 8px solid rgb(209, 136, 148);
-  border-radius: 50%;
-  flex-grow: 1;
-  object-fit: cover;
-  /*
-   height: 250px;
-   border-radius: 100%;
-   border: map-get($bordes, borde-3);*/
+.home__service--articulo-card .card__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 16px solid rgb(209, 136, 148);
 }
 .home__service--articulo-card .card__info--line {
-  /*
-    height: 2px;
-    width: 40%;
-    margin: 25px 2.6rem;
-    background: map-get($color-text, text-2);*/
+  width: 30%;
+  height: 3%;
+  border: 1px solid;
+  border-radius: 100%;
+  margin: 1rem 5.8rem 2rem 5.8rem;
+  background: rgb(97, 20, 45);
 }
 .home__service--articulo-card .card__info--title {
   font-size: 1.5rem;
@@ -11114,7 +11103,38 @@ footer .container__autor--name .link__autor {
   font-size: 3rem;
 }
 
+/* mayor igual 576px*/
+@media (min-width: 576px) {
+  .home__service--articulo-card .card__img {
+    width: 380px;
+    height: 380px;
+  }
+  .home__service--articulo-card .card__info--line {
+    width: 20%;
+    margin: 1rem 12rem 2rem 12rem;
+  }
+}
+/* mayor igual 768px*/
 @media (min-width: 768px) {
+  .home__portada--container .portada__container--img {
+    height: 600px;
+  }
+  .home__portada--container .portada__container--info-title {
+    font-size: 2rem;
+  }
+  .home__service {
+    padding: 0 4rem;
+  }
+  .home__service--articulo-card .card__img {
+    width: 250px;
+    height: 250px;
+  }
+  .home__service--articulo-card .card__info--line {
+    margin: 1rem 6.2rem 2rem 6.2rem;
+  }
+  .home__service--articulo-card .card__info--title {
+    font-size: 1.8rem;
+  }
   .watsap .btn-wsp {
     bottom: 120px;
   }
@@ -11207,6 +11227,7 @@ footer .container__autor--name .link__autor {
     transform: scale(1.2);
   }
 }
+/* mayor igual 992px*/
 @media (min-width: 992px) {
   .home__portada--container .portada__container--img {
     height: 650px;
@@ -11217,18 +11238,9 @@ footer .container__autor--name .link__autor {
   .home__portada--container .portada__container--info-text {
     font-size: 4rem;
   }
-  .home__service--articulo {
-    width: 18%;
-  }
-  .home__service--articulo-card {
-    width: 100%;
-  }
-  .home__service--articulo-card .card__img {
-    /* width: 110%;
-     height: 180px;*/
-  }
-  .home__service--articulo-card .card__info--title {
-    font-size: 1.3rem;
+  .home__service--articulo-card .card__info--line {
+    width: 15%;
+    margin: 1rem 9.8rem 2rem 9.8rem;
   }
   .service .service__manicure .service__manicure--container .service__manicure--container-card,
   .service .service__manicure .service__manicure--container .service__otros--container-card,
@@ -11262,12 +11274,21 @@ footer .container__autor--name .link__autor {
     height: 350px;
   }
 }
+/* mayor igual 1200px*/
 @media (min-width: 1200px) {
-  .home__service--articulo-card .card__img {
-    height: 220px;
+  .home__service {
+    padding: 0 1rem;
   }
-  .home__service--articulo-card .card__info--title {
-    font-size: 1.7rem;
+  .home__service--articulo {
+    width: 20%;
+  }
+  .home__service--articulo-card .card__img {
+    width: 260px;
+    height: 260px;
+  }
+  .home__service--articulo-card * .card__info--line {
+    width: 30%;
+    margin: 1rem 4.5rem 2rem 4.5rem;
   }
   .service .service__manicure .service__manicure--container .service__manicure--container-card,
   .service .service__manicure .service__manicure--container .service__otros--container-card,
@@ -11337,6 +11358,7 @@ footer .container__autor--name .link__autor {
     width: 95%;
   }
 }
+/* mayor igual 1400px*/
 @media (min-width: 1400px) {
   .home__service--articulo-card .card__info--title {
     font-size: 2rem;

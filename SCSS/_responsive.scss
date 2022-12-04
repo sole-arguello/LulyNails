@@ -1,4 +1,62 @@
+/* mayor igual 576px*/
+@include media-breakpoint-up(sm) {
+  .home {
+    &__service {
+      &--articulo {
+        &-card {
+          .card__img {
+            width: 380px;
+            height: 380px;
+          }
+          .card__info {
+            &--line {
+              width: 20%;
+              margin: 1rem 12rem 2rem 12rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* mayor igual 768px*/
 @include media-breakpoint-up(md) {
+  .home {
+    &__portada {
+      &--container {
+        .portada__container {
+          &--img {
+            height: 600px;
+          }
+          &--info {
+            &-title {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+    &__service {
+      padding: 0 4rem;
+      &--articulo {
+        &-card {
+          .card__img {
+            width: 250px;
+            height: 250px;
+          }
+          .card__info {
+            &--line {
+              margin: 1rem 6.2rem 2rem 6.2rem;
+            }
+            &--title {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .watsap {
     .btn-wsp {
       bottom: 120px;
@@ -83,9 +141,9 @@
     }
   }
 }
-
+/* mayor igual 992px*/
 @include media-breakpoint-up(lg) {
-  .home {  
+  .home {
     &__portada {
       &--container {
         .portada__container {
@@ -98,7 +156,6 @@
             }
             &-text {
               font-size: 4rem;
-              
             }
           }
         }
@@ -106,16 +163,11 @@
     }
     &__service {
       &--articulo {
-        width: 18%;
         &-card {
-          width: 100%;
-          .card__img {
-           /* width: 110%;
-            height: 180px;*/
-          }
           .card__info {
-            &--title {
-              font-size: 1.3rem;
+            &--line {
+              width: 15%;
+              margin: 1rem 9.8rem 2rem 9.8rem;
             }
           }
         }
@@ -158,17 +210,22 @@
   }
 }
 
+/* mayor igual 1200px*/
 @include media-breakpoint-up(xl) {
   .home {
     &__service {
+      padding: 0 1rem;
       &--articulo {
+        width: 20%;
         &-card {
           .card__img {
-            height: 220px;
-          }
+            width: 260px;
+            height: 260px;
+          }*
           .card__info {
-            &--title {
-              font-size: 1.7rem;
+            &--line {
+              width: 30%;
+              margin: 1rem 4.5rem 2rem 4.5rem;
             }
           }
         }
@@ -226,7 +283,7 @@
     }
   }
 }
-
+/* mayor igual 1400px*/
 @include media-breakpoint-up(xxl) {
   .home {
     &__service {
