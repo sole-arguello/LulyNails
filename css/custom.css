@@ -10844,7 +10844,7 @@ header div ul li a:hover {
   width: 55px;
   height: 55px;
   bottom: 180px;
-  right: 30px;
+  right: 0px;
   font-size: 30px;
   font-weight: 600;
   line-height: 55px;
@@ -10945,14 +10945,14 @@ footer .container__redes--icono .instagram:hover .tooltip::before {
 footer .container__redes--icono .instagram:hover span {
   background: #e1306c;
 }
-footer .container__redes--icono .facebook:hover .tooltip {
-  background: #3b5999;
+footer .container__redes--icono .tiktok:hover .tooltip {
+  background: rgb(59, 58, 58);
 }
-footer .container__redes--icono .facebook:hover .tooltip::before {
-  background: #3b5999;
+footer .container__redes--icono .tiktok:hover .tooltip::before {
+  background: rgb(59, 58, 58);
 }
-footer .container__redes--icono .facebook:hover span {
-  background: #3b5999;
+footer .container__redes--icono .tiktok:hover span {
+  background: rgb(59, 58, 58);
 }
 footer .container__redes--icono .email:hover .tooltip {
   background: #de463b;
@@ -11113,6 +11113,9 @@ footer .container__autor--name .link__autor {
     width: 20%;
     margin: 1rem 12rem 2rem 12rem;
   }
+  .watsap .btn-wsp {
+    right: 30px;
+  }
 }
 /* mayor igual 768px*/
 @media (min-width: 768px) {
@@ -11272,6 +11275,10 @@ footer .container__autor--name .link__autor {
   }
   .nosotros__somos--video {
     height: 350px;
+  }
+  footer .container__redes--icono .icon span {
+    height: 50px;
+    width: 50px;
   }
 }
 /* mayor igual 1200px*/

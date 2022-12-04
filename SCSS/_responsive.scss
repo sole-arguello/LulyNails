@@ -18,6 +18,11 @@
       }
     }
   }
+  .watsap {
+    .btn-wsp {
+      right: 30px;
+    }
+  }
 }
 /* mayor igual 768px*/
 @include media-breakpoint-up(md) {
@@ -208,6 +213,19 @@
       }
     }
   }
+  footer {
+    .container__redes {
+      &--icono {
+        .icon {
+          span {
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 /* mayor igual 1200px*/

@@ -80,15 +80,15 @@ footer {
           background: map-get($fondos , fondo-7 );
         }
       }
-      .facebook:hover {
+      .tiktok:hover {
         .tooltip {
-          background: map-get($fondos , fondo-8 );
+          background: map-get($fondos , fondo-11 );
           &::before {
-            background: map-get($fondos , fondo-8 );
+            background: map-get($fondos , fondo-11 );
           }
         }
         span {
-          background: map-get($fondos , fondo-8 );
+          background: map-get($fondos , fondo-11 );
         }
       }
       .email:hover{
