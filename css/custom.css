@@ -10783,7 +10783,7 @@ textarea.form-control-lg {
   }
 }
 * {
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
