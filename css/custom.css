@@ -11376,7 +11376,7 @@ footer .container__autor--name .link__autor {
   }
   .home__service--articulo-card .card__info--line {
     width: 30%;
-    margin: 1rem 5rem 2rem 5rem;
+    margin: 1rem 5.2rem 2rem 5.2rem;
   }
   .home__service--articulo-card .card__info--title {
     font-size: 2rem;
@@ -11397,6 +11397,11 @@ footer .container__autor--name .link__autor {
   }
   .nosotros__somos {
     margin: 0 8rem;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2000px) {
+  .home__service--articulo-card .card__info--line {
+    margin: 1rem 8rem 2rem 8rem;
   }
 }
 
