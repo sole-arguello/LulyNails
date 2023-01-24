@@ -6,6 +6,6 @@ como proyecto integrador de lo visto a lo largo de dos meses.
 
 # Construido con:
 <li>Html5</li>
-<li>Css (bootstrap - Sass) </li>
+<li>Css (bootstrap - Sass(SCSS)) </li>
 <li>Responsive Movil First</li>
 <li>Subido a un hosting aparte de GitHub link page netlify: https://jade-pixie-017d25.netlify.app/</li>
