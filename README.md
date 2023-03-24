@@ -7,9 +7,12 @@ como proyecto integrador de lo visto a lo largo de dos meses.
 
 # Tecnologias Utilizadas:
 <li>Html5</li>
-<li>Css (bootstrap - Sass(SCCSS))<li/>
+<li>Css (bootstrap - Sass(SCCSS))</li>
 <li>Node.Js</li>
 <li>Responsive Movil First</li>
-<li>Subido al Hosting GitHub</li>
+<li>Subido al Hosting GitHub y Netlify</li>
+
+### DEMO GitHub: https://sole-arguello.github.io/LulyNails/
+### DEMO Netlify: https://jade-pixie-017d25.netlify.app/
 
 
