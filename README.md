@@ -21,9 +21,13 @@
    16. Conociendo a nuestro cliente
    17. Proyecto Final
    
-### Nota obtenida: ![imagen](nota1.png)
+### Nota Obtenida y Devolucion: 
+![imagen](nota1.png)
+![imagen](nota2.png)
 
-### Devolucion: ![imagen](nota2.png)
+### Certificado y Evolucion: 
+![imagen](nota3.png)
+![imagen](top10.png)
 
 
 
